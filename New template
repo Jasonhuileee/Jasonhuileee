@@ -1,0 +1,78 @@
+Perspectives
+Make:
+AI Developer: Responsible for developing the AI model.
+Data Provider: Supplies the training data.
+Use:
+Primary User: End-users who will directly interact with the product, such as C-Suite Executives at ArtTech Showcase.
+Secondary User: Other stakeholders who benefit indirectly from the product, such as law enforcement officers and other attendees of the ArtTech Showcase.Requirements Gathering
+Features
+People Recognition Algorithm
+Real-Time Recognition Capability
+Movement Tracking
+Notification System
+Hardware Requirements
+High-resolution camera
+Robust processor
+Motorized pan-tilt-zoom (PTZ) camera
+Speaker system
+Software Requirements
+Computer Vision software
+Machine Learning algorithms
+Tracking algorithms
+Customizable alerting system
+Resource Breakdown Structure (RBS)
+Table
+
+RBS Code	RBS Description	Hourly Rate
+R1	Data Engineer	$35
+R2	AI Engineer	$28
+R3	Data Scientist	$42
+Work Breakdown Structure (WBS)
+Hardware Development Plan
+Table
+
+WBS Code	WBS Description	Hardware Requirements
+H1	Setup high-resolution camera	High-resolution camera
+H2	Integrate PTZ camera	Motorized PTZ camera
+H3	Install speaker system	Speaker system
+Sub-Tasks:
+
+Test camera functionality
+Calibrate PTZ camera for tracking
+Test speaker system for audio notifications
+Software Development Plan
+Table
+
+WBS Code	WBS Description	Software Requirements
+S1	Develop People Recognition Algorithm	Computer Vision software
+S2	Implement Real-Time Recognition	Machine Learning algorithms
+S3	Integrate Movement Tracking Algorithm	Tracking algorithms
+S4	Implement Notification System	Customizable alerting system
+Sub-Tasks:
+
+Train the recognition algorithm
+Optimize real-time processing
+Test tracking accuracy
+Customize alerting options
+Project Canvas
+Project Data
+Skills: Computer Vision, Machine Learning, Software Development, Embedded Systems, Ethics and Privacy
+Data: Training data from Data Scape Studios
+Project Value
+Value Proposition: Accurate and real-time recognition of anime and real people, movement tracking, and customizable notifications
+Project Integration
+Testing: Hardware, software, integration, and user acceptance testing under the witness of an independent body
+Customers
+Primary Users: End-users at the ArtTech Showcase
+Secondary Users: C-Suite Executives, conference attendees
+Output
+Key Metrics: Accuracy and F1 Score of at least 80%
+Stakeholders: AI Developer, Data Provider, Primary User, Secondary User
+Confusion Matrix
+Table
+
+Predicted Condition	Total Population	Predicted Positive (PP)	Predicted Negative (PN)
+Conditional Positive (P)	True Positive (TP)	False Negative (FN)	25
+Conditional Negative (N)	False Positive (FP)	True Negative (TN)	25
+Accuracy: ((TP + TN) / (TP + TN + FP + FN))
+F1 Score: (2 \times \frac{Precision \times Recall}{Precision + Recall})
