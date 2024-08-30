@@ -1,0 +1,92 @@
+Sure, I'll help you fill out the template based on the lab sheet and the provided file. Let's go through each section step-by-step.
+
+### Stakeholder Analysis
+
+#### Perspectives
+- **Make**: AI Developer, Data Provider
+- **Use**: Primary User, Secondary User
+
+#### Stakeholders
+- **AI Developer**: Responsible for developing the AI model.
+- **Data Provider**: Supplies the training data.
+- **Primary User**: End-users who will directly interact with the product.
+- **Secondary User**: Other stakeholders who benefit indirectly from the product.
+
+### Requirements Gathering
+
+#### Features
+1. **People Recognition Algorithm**
+   - **Hardware Requirement**: High-resolution camera, robust processor
+   - **Software Requirement**: Optimized recognition algorithm, real-time processing software
+
+2. **Real-Time Recognition Capability**
+   - **Hardware Requirement**: High-performance processor
+   - **Software Requirement**: Real-time image processing software
+
+3. **Movement Tracking**
+   - **Hardware Requirement**: Motorized pan-tilt-zoom (PTZ) camera
+   - **Software Requirement**: Intelligent tracking algorithm
+
+4. **Notification System**
+   - **Hardware Requirement**: Speaker system
+   - **Software Requirement**: Customizable alerting algorithm
+
+### Resource Breakdown Structure (RBS)
+
+| RBS Code | RBS Description | Hourly Rate |
+|----------|------------------|-------------|
+| R1       | Data Engineer    | $35         |
+| R2       | AI Engineer      | $28         |
+| R3       | Data Scientist   | $42         |
+
+### Work Breakdown Structure (WBS)
+
+#### Hardware
+
+| WBS Code | WBS Description            | Hardware Requirements          |
+|----------|----------------------------|---------------------------------|
+| H1       | High-resolution camera     | People Recognition Algorithm    |
+| H2       | Robust processor           | Real-Time Recognition Capability|
+| H3       | Motorized PTZ camera       | Movement Tracking               |
+| H4       | Speaker system             | Notification System             |
+
+#### Software
+
+| WBS Code | WBS Description            | Software Requirements           |
+|----------|----------------------------|---------------------------------|
+| S1       | Recognition algorithm      | People Recognition Algorithm    |
+| S2       | Real-time processing       | Real-Time Recognition Capability|
+| S3       | Tracking algorithm         | Movement Tracking               |
+| S4       | Alerting algorithm         | Notification System             |
+
+### Project Canvas
+
+#### Project Data
+- **Skills**: Computer Vision, Machine Learning, Software Development, Embedded Systems, Ethics and Privacy
+- **Data**: Training data from Data Scape Studios
+
+#### Project Value
+- **Value Proposition**: Accurate and real-time recognition of anime and real people, movement tracking, and customizable notifications
+
+#### Project Integration
+- **Testing**: Hardware, software, integration, and user acceptance testing under the witness of an independent body
+
+#### Customers
+- **Primary Users**: End-users at the ArtTech Showcase
+- **Secondary Users**: C-Suite Executives, conference attendees
+
+#### Output
+- **Key Metrics**: Accuracy and F1 Score of at least 80%
+- **Stakeholders**: AI Developer, Data Provider, Primary User, Secondary User
+
+### Confusion Matrix
+
+| Predicted Condition | Total Population | Predicted Positive (PP) | Predicted Negative (PN) |
+|---------------------|------------------|-------------------------|-------------------------|
+| Conditional Positive (P) | True Positive (TP) | False Negative (FN) | 25 |
+| Conditional Negative (N) | False Positive (FP) | True Negative (TN) | 25 |
+
+- **Accuracy**: \((TP + TN) / (TP + TN + FP + FN)\)
+- **F1 Score**: \(2 \times \frac{Precision \times Recall}{Precision + Recall}\)
+
+This should cover all the sections in the template. Let me know if you need any further details or adjustments!
